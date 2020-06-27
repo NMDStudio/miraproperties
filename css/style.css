@@ -1,0 +1,473 @@
+
+ body{
+ 	background: transparent;
+	margin:2%;
+}
+
+header{
+	margin: 0;
+	margin-left: -3%;
+	background:transparent;
+}
+
+/*MIRA LOGO CENTER*/
+
+
+.mirap {
+text-align: center;
+}
+
+/*NAV STYLES*/
+
+ul {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	margin-left: -1.5%;
+}
+
+li a{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 145%;
+	text-decoration: none;
+	list-style: none;
+	line-height: 32px;
+	color: #9E9E9E;
+	margin: 0;
+	margin-left: -1.5%;
+}
+
+li a:hover{
+	color:#353535;
+	margin: 0;
+	margin-left: -1.5%;
+}
+
+/*H STYLES*/
+
+h1{
+	font-family: Helvetica, Arial;
+	font-weight: normal;
+	font-size:165%
+	color: #353535;
+}
+
+h2{
+	font-family: Helvetica, Arial;
+	font-weight: normal;
+	font-size:145%
+	color: #353535;
+}
+
+h3{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size:125%
+	line-height:10px;
+	color: #353535;
+}
+
+/*PARAGRAPH STYLES*/
+p{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	line-height: 25px;
+	color: #9E9E9E;
+}
+
+/*BACK STYLE*/
+
+p a{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	text-decoration: none;
+	list-style: none;
+	line-height: 10px;
+	color: #9E9E9E;
+}
+
+p a:hover{
+	color:#353535;
+}
+
+
+/*SEARCH STYLE*/
+
+form input{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	text-decoration: none;
+	list-style: none;
+	line-height: 20px;
+	color: #9E9E9E;
+	margin: 0;
+}
+
+
+.jour{
+	margin: 0;
+}
+
+
+/*SUMMARY STYLE*/
+
+summary{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	text-decoration: none;
+	list-style: none;
+	line-height: 32px;
+	color: #9E9E9E;
+}
+
+
+.contactme a{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	line-height: 10px;
+	color:#9E9E9E;
+	text-decoration: none;
+}
+
+.contactme a:hover{
+	color:#353535;
+	text-decoration: none;
+}
+
+.contactme a:active{
+	color:#353535;
+	text-decoration: none;
+}
+
+
+/*SPAN*/
+
+span{
+	display:inline-block;
+	width: 37%;
+	float:right;
+	background-color: transparent;
+}
+
+caption{
+	text-align: center;
+}
+
+.quote{
+	font-family: Times,Bodoni;
+	font-size: 160%;
+	width:65%;
+	padding-top: 8%;
+}
+
+
+.contactok{
+	display:inline-block;
+	width: 40%;
+	float:right;
+	margin-top: 10%;
+}
+
+
+/*FICHA NO CENTRO*/
+
+.fichatry{
+
+	display: block;
+	border: solid 1px transparent;
+	margin: 0 auto;
+	width: 1300px;
+	padding-top: 50px;
+}
+
+.ficha{
+	display: block;
+	padding: auto 0;
+	margin: auto 0;
+	background-color: transparent;
+	width:40%;
+	font-size: 100%;
+}
+
+.icenficha{
+	margin-right:1%;
+	margin-left: 15%;
+}
+
+/*IMAGEM NO CENTRO*/
+
+.icen{
+	display: block;
+	border: solid 1px transparent;
+	margin: 4% auto;
+	width: 600px;
+}
+
+/*HOVER NOME DO PROJETO*/
+
+.icen{
+	position: relative;
+	top: center;
+	color: white;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 135%;
+}
+
+
+.top-right{
+	position:absolute;
+	top:8px;
+	right:16px;
+	transition: .3s ease;
+	opacity: 0;
+}
+
+.icen:hover .top-right{
+	opacity: 1;
+}
+
+
+.manitry{
+	display: block;
+	border: solid 1px transparent;
+	margin: 0 auto;
+	width: 900px;
+	padding-top: 90px;
+}
+
+.manitrytwo p{
+	display: block;
+	padding: auto;
+	margin: auto;
+	background-color: transparent;
+	width:100%;
+	font-size: 90%;
+	line-height: 145%;
+}
+
+.manitrytwo{
+	display: block;
+	padding: auto;
+	margin: auto;
+	background-color: transparent;
+	width:48%;
+
+}
+
+.manifesto{
+	margin-right:3%;
+	margin-top: 0;
+}
+
+/*JOURNAL INSIDE*/
+
+.jourinside{
+	display: block;
+	border: solid 1px transparent;
+	width: 100%;
+}
+
+.jourinside a{
+	text-decoration: none;
+}
+
+.jourinside a:hover{
+	text-decoration: none;
+	color:#353535;
+}
+
+.textoj{
+	width: 500px;
+}
+
+
+/*FORM*/
+
+input[type="E-mail"]{
+	width: 70%;
+	display:block;
+	box-sizing: border-box;
+	padding: 0;
+	height: 30px;
+	border: 0.5px solid #9E9E9E;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	color: #9E9E9E;
+	margin-bottom: 15px;
+}
+
+input[type="E-mail"]:focus{
+	width: 70%;
+	display:block;
+	box-sizing: border-box;
+	padding: 0;
+	height: 30px;
+	border: 1px solid #9E9E9E;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	color: #353535;
+	margin-bottom: 15px;
+}
+
+input[type="text"]{
+	display:block;
+	box-sizing: border-box;
+	padding: 0;
+	height: 30px;
+	border: none;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	color: #9E9E9E;
+}
+
+input[type="text"]:focus{
+	display:block;
+	box-sizing: border-box;
+	padding: 0;
+	height: 30px;
+	border: 1px solid #9E9E9E;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border: none;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	color: #9E9E9E;
+}
+
+
+.hidden-label{
+	position:absolute;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+input[type="Login"]{
+	box-sizing: border-box;
+	height: 30px;
+	border: 0.5px solid #9E9E9E;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	color: #9E9E9E;
+	margin-bottom: 15px;
+}
+
+input[type="Password"]{
+	box-sizing: border-box;
+	height: 30px;
+	border: 0.5px solid #9E9E9E;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	color: #9E9E9E;
+	margin-bottom: 15px;
+}
+
+.login{
+	display: block;
+	border: solid 1px transparent;
+	margin: 0 auto;
+	width: 200px;
+}
+
+
+/*TABLE*/
+
+table{
+	border-spacing:0;
+	border-collapse: collapse;
+	background-color: transparent;
+	padding border-bottom: 0;
+}
+
+
+table th,
+table td{
+	border: 1px solid #9E9E9E;
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	color: #9e9e9e;
+	padding: 3px 15px 0px 0px;
+	border:none;
+	padding-right: 30px;
+
+}
+
+table th{
+	text-align: left;
+	font-family: Helvetica, Arial;
+	font-weight: normal;
+	font-size: 100%;
+	color: #353535;
+	padding: 0 30px 5px 0;
+
+}
+
+table td{
+	padding-bottom: 9px;
+	padding-top: 9px;
+}
+
+
+
+
+/*AJUSTES JOURNAL*/
+
+.espaço{
+line-height: 10px;
+}
+
+.kr a{
+	font-family: Helvetica, Arial;
+	font-weight: lighter;
+	font-size: 100%;
+	line-height: 25px;
+	color: #9E9E9E;
+}
+
+.kr a:hover{
+	color: #353535;
+}
+
+
+img {
+	opacity:1;
+}
+
+img:hover{
+	opacity: 0.8;
+	transition: .3s ease;
+}
+
+footer{
+	text-align: center;
+	margin-top: 10%;
+	clear: both;
+}
